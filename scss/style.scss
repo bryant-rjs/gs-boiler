@@ -1,0 +1,22 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "variables";
+
+///////////////////////////////////////////
+// Clearfix
+///////////////////////////////////////////
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+///////////////////////////////////////////
+// Base Structure Styling + Some Resets
+///////////////////////////////////////////
